@@ -5,6 +5,9 @@
 
 .cabecalho {
     padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cartao {
@@ -14,6 +17,10 @@
 
 .cartao-imagem {
     width: 100%;
+}
+
+body {
+    display: flex;
 }
 .cartao-verso{
     background-color: blue;

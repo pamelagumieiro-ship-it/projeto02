@@ -21,7 +21,10 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-.cartao-verso{
-    background-color: blue;
+
+main {
+    flex: 1;
 }
